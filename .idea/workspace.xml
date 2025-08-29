@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aeb4f165-c3bd-4a01-ae3b-44ffadbeae2d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +38,7 @@
   "keyToString": {
     "Application.Splash.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Node.js.App.js.executor": "Run",
     "Node.js.calc.js.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -65,7 +63,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Node.js.calc.js">
+  <component name="RunManager" selected="Node.js.App.js">
     <configuration name="RemoveEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="employee.management.system.RemoveEmployee" />
       <module name="employee management system" />
@@ -92,19 +90,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UpdateEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="employee.management.system.UpdateEmployee" />
-      <module name="employee management system" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="employee.management.system.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="View_Employee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="employee.management.system.View_Employee" />
       <module name="employee management system" />
@@ -118,24 +103,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="App.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/hey-you/src/App.js" working-dir="$PROJECT_DIR$/hey-you/src">
+      <method v="2" />
+    </configuration>
     <configuration name="calc.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/script.js/calc.js" working-dir="$PROJECT_DIR$/script.js">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.App.js" />
         <item itemvalue="Node.js.calc.js" />
         <item itemvalue="Application.Splash" />
         <item itemvalue="Application.RemoveEmployee" />
         <item itemvalue="Application.View_Employee" />
-        <item itemvalue="Application.UpdateEmployee" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.23892.409" />
-        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-IU-252.23892.409" />
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-IU-252.25557.131" />
       </set>
     </attachedChunks>
   </component>
@@ -156,6 +144,8 @@
       <workItem from="1756218785596" duration="221000" />
       <workItem from="1756219031288" duration="396000" />
       <workItem from="1756219474702" duration="231000" />
+      <workItem from="1756473825688" duration="11000" />
+      <workItem from="1756473855577" duration="250000" />
     </task>
     <servers />
   </component>
