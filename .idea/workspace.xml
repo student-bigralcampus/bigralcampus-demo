@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aeb4f165-c3bd-4a01-ae3b-44ffadbeae2d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +37,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.RemoveEmployee.executor": "Run",
     "Application.Splash.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Node.js.App.js.executor": "Run",
@@ -55,7 +57,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/YouTube Project/youtube/employee management system/employee management system/src/Main.java",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "editor.preferences.inline.completion",
@@ -63,7 +65,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Node.js.App.js">
+  <component name="RunManager" selected="Application.RemoveEmployee">
     <configuration name="RemoveEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="employee.management.system.RemoveEmployee" />
       <module name="employee management system" />
@@ -111,10 +113,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.App.js" />
-        <item itemvalue="Node.js.calc.js" />
-        <item itemvalue="Application.Splash" />
         <item itemvalue="Application.RemoveEmployee" />
+        <item itemvalue="Application.Splash" />
         <item itemvalue="Application.View_Employee" />
       </list>
     </recent_temporary>
@@ -123,7 +123,6 @@
     <attachedChunks>
       <set>
         <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
-        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-IU-252.25557.131" />
       </set>
     </attachedChunks>
   </component>
