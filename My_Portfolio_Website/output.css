@@ -240,6 +240,7 @@ input:where([type='button']),
 input:where([type='reset']),
 input:where([type='submit']) {
   -webkit-appearance: button;
+  appearance: button;
   /* 1 */
   background-color: transparent;
   /* 2 */
@@ -287,6 +288,7 @@ Correct the cursor style of increment and decrement buttons in Safari.
 
 [type='search'] {
   -webkit-appearance: textfield;
+  appearance: textfield;
   /* 1 */
   outline-offset: -2px;
   /* 2 */
@@ -426,7 +428,7 @@ embed,
 object {
   display: block;
   /* 1 */
-  vertical-align: middle;
+  /* vertical-align removed because it is ignored with display: block */
   /* 2 */
 }
 
@@ -856,9 +858,7 @@ video {
   max-width: 800px;
 }
 
-.max-w-\[\] {
-  max-width: ;
-}
+/* Removed invalid max-width utility */
 
 .max-w-\[600px\] {
   max-width: 600px;
@@ -1068,7 +1068,7 @@ video {
 }
 
 .bg-\[\#ffe578ffe578\] {
-  background-color: #ffe578ffe578;
+  background-color: #ffe578;
 }
 
 .bg-\[\#47afa1\] {
@@ -1086,12 +1086,9 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[\] {
-  background-color: ;
-}
 
 .bg-\[\#\#1f2937\] {
-  background-color: ##1f2937;
+  background-color: #1f2937;
 }
 
 .bg-\[\#1f2937\] {
@@ -1110,7 +1107,7 @@ video {
 }
 
 .bg-\[\[\#1788ae\]\] {
-  background-color: [#1788ae];
+  background-color: #1788ae;
 }
 
 .bg-gradient-to-l {
